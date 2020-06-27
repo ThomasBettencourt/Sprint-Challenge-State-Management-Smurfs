@@ -3,11 +3,9 @@ import axios from "axios";
 export const FETCH_DATA_START = "FETCH_DATA_START";
 export const FETCH_DATA_SUCCESS = "FETCH_DATA_SUCCESS";
 export const FETCH_DATA_FAILURE = "FETCH_DATA_FAILURE";
-
 export const POST_DATA_START = "POST_SMURF_START";
 export const POST_DATA_SUCCESS = "POST_SMURF_SUCCESS";
 export const POST_DATA_FAILURE = "POST_SMURF_FAILURE";
-
 export const DELETE_SMURF = "DELETE_SMURF";
 
 export const getSmurfs = () => dispatch => {
